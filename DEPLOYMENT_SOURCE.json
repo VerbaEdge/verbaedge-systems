@@ -1,0 +1,80 @@
+{
+  "custom_domain_state": "planned; no CNAME included",
+  "excluded_from_site_file_hashes": [
+    "README.md",
+    "DEPLOYMENT_SOURCE.json"
+  ],
+  "files": {
+    ".nojekyll": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "assets/brand/verbaedge-logo-180.png": {
+      "bytes": 8122,
+      "sha256": "75aaf014d2d1273312c1d12e49982008ded27ec310ae498bac3981fc70c57675"
+    },
+    "assets/brand/verbaedge-logo.svg": {
+      "bytes": 499,
+      "sha256": "1a5faa859b7a308f52c1e7c55684e1fa9beebed77f2ad10a8e4258f6b804af33"
+    },
+    "assets/portfolio/upwork-portfolio-cpp-edge-ai-application.png": {
+      "bytes": 1777122,
+      "sha256": "6380683f1996c9f30b6091814ea921db2b6c37d3965f18c3691f8706546a7427"
+    },
+    "assets/portfolio/upwork-portfolio-image-classifier-edge-hardware.png": {
+      "bytes": 1777000,
+      "sha256": "e36adede4287909e0d0add3a7cf70dd340915caba7e1aa2b89c2b50abb2d07f5"
+    },
+    "assets/portfolio/upwork-portfolio-yocto-network-boot.png": {
+      "bytes": 1585971,
+      "sha256": "b33752f713b8871a771e824eaf07481e2b50eb47d6103a2108f844886ad8322e"
+    },
+    "downloads/VerbaEdge_RAG_3_Portfolio_Projects.zip": {
+      "bytes": 23386,
+      "sha256": "f45737baba872b599a2334e96328d0cac3767f0fd60afd9fa33b42280521d948"
+    },
+    "favicon-32.png": {
+      "bytes": 1383,
+      "sha256": "e5f690592f29deeec6dc2e6b110a1c7990470716f1aa0a9e06265f549412b151"
+    },
+    "favicon.svg": {
+      "bytes": 499,
+      "sha256": "1a5faa859b7a308f52c1e7c55684e1fa9beebed77f2ad10a8e4258f6b804af33"
+    },
+    "index.html": {
+      "bytes": 21552,
+      "sha256": "df0336f4ee72329119471a47d366db57fa7cc45b6ba56ae457ae741a7cb340a2"
+    },
+    "portfolio/access-control.html": {
+      "bytes": 3718,
+      "sha256": "f5fc71c816d0a8359b0a5d1e70a2060f7927144949ca28d3481740da9475d9d1"
+    },
+    "portfolio/citation-context.html": {
+      "bytes": 3652,
+      "sha256": "13907088348f203feb19d2b726b080e692812f6925548175ab10c93a61cf89c2"
+    },
+    "portfolio/retrieval-metadata.html": {
+      "bytes": 3622,
+      "sha256": "820762e82657dd09e28c3dce63e13776962550dac5c87d9e26266f614590df66"
+    },
+    "robots.txt": {
+      "bytes": 74,
+      "sha256": "8b980e9f848ba736873708f2d44318e03ebb8fa6a13b0fb000268dc1d471de2a"
+    },
+    "sitemap.xml": {
+      "bytes": 423,
+      "sha256": "0b6be2fc6ffbd29f3f37d6b92ef8eed57e2781f1f57a422a199b184a03dad2a8"
+    },
+    "styles.css": {
+      "bytes": 13007,
+      "sha256": "455733f042c8cefa2a4e3689449158840e7b9e5888f60109f25a2d5e6acadc99"
+    }
+  },
+  "hash_algorithm": "sha256",
+  "intended_custom_domain": "systems.verbaedge.com",
+  "intended_repository": "VerbaEdge/verbaedge-systems",
+  "site_file_count": 16,
+  "source_commit": "45fb2c3e4dedce03652a9a1672ca78846928dff0",
+  "source_directory": "website-package/sites/systems",
+  "source_repository": "VerbaEdge/VerbaEdge.github.io"
+}
