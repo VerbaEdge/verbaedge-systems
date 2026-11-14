@@ -6,7 +6,7 @@ Prepared from reviewed commit `45fb2c3e4dedce03652a9a1672ca78846928dff0` in `Ver
 
 Publish the contents of this directory at the repository root, preserving `.nojekyll`, assets, and page paths. GitHub Pages can deploy the approved `main` branch from `/(root)`; no build or dependency installation is needed. Use review branches and pull requests for changes.
 
-The intended custom domain `systems.verbaedge.com` remains planned. No `CNAME` is included: first test the temporary URL shown by Pages, then apply the separately approved custom-domain/DNS configuration and verify HTTPS. Keep the existing `verbaedge.com` homepage unchanged until both division subdomains pass their tests and main activation is approved.
+This domain-configuration branch adds `CNAME` for `systems.verbaedge.com`. Test the initial Pages deployment before merging it; then verify the Pages domain binding, matching DNS CNAME record and HTTPS. The owner has approved deployment. Keep the existing `verbaedge.com` homepage unchanged until both division subdomains work.
 
 The portfolio includes synthetic RAG debugging and security demonstrations, downloadable sample projects, and the retained engineering work samples. These are not claims of client engagements.
 
