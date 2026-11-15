@@ -611,3 +611,16 @@ html{scroll-padding-top:140px!important}
 #portfolio #rag-portfolio{margin-top:54px}
 #portfolio .portfolio-grid{margin-bottom:22px}
 @media(max-width:760px){.site-header .nav-links{flex-wrap:nowrap;gap:15px;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:thin}}
+
+/* Concise broad AI focus and RAG-only troubleshooting section. */
+.focus-card .focus-list{gap:10px}
+.focus-card .focus-list > div{padding-top:12px}
+.focus-card .focus-list strong{font-size:.94rem;line-height:1.35}
+.focus-card .focus-list span{font-size:.89rem;line-height:1.52}
+.rag-problems{margin:32px 0}
+.rag-problems h3{font-size:clamp(1.32rem,2vw,1.62rem);margin:0 0 16px;line-height:1.3}
+.rag-problem-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.rag-problem{min-width:0;padding:20px;border:1px solid var(--line);border-radius:14px;background:rgba(15,31,52,.8)}
+.rag-problem h4{font-size:1rem;line-height:1.3;color:var(--text);margin:0 0 7px}
+.rag-problem p{font-size:.93rem;line-height:1.55;color:var(--muted);margin:0}
+@media(max-width:720px){.rag-problem-grid{grid-template-columns:1fr}.rag-problem{padding:16px}}
