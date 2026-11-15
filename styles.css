@@ -624,3 +624,52 @@ html{scroll-padding-top:140px!important}
 .rag-problem h4{font-size:1rem;line-height:1.3;color:var(--text);margin:0 0 7px}
 .rag-problem p{font-size:.93rem;line-height:1.55;color:var(--muted);margin:0}
 @media(max-width:720px){.rag-problem-grid{grid-template-columns:1fr}.rag-problem{padding:16px}}
+
+/* VerbaEdge cross-site design contract v2 — identical on all three site stylesheets. */
+.ve-network{position:sticky;top:0;z-index:120;background:#06111d;color:#b7c9dd;border-bottom:1px solid rgba(159,183,208,.22);font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;font-size:14px;line-height:1.45}
+.ve-network__inner{width:min(1170px,calc(100% - 32px));margin:auto;min-height:48px;display:flex;align-items:stretch;gap:6px;overflow-x:auto;overscroll-behavior-x:contain;scrollbar-width:thin;-webkit-overflow-scrolling:touch}
+.ve-network__link{display:inline-flex;align-items:center;justify-content:center;flex:0 0 auto;white-space:nowrap;min-height:48px;padding:10px 16px;font:700 14px/1.45 Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;letter-spacing:0;color:#b7c9dd!important;text-decoration:none!important;border-bottom:2px solid transparent}
+.ve-network__link:hover{color:#fff!important;background:rgba(96,165,250,.1)}
+.ve-network__link[aria-current="page"]{color:#fff!important;background:rgba(96,165,250,.12);border-bottom-color:#60a5fa}
+.ve-network__link:focus-visible{color:#fff!important;outline:2px solid #60a5fa;outline-offset:-3px;background:rgba(96,165,250,.1)}
+.header,.site-header{position:sticky;top:48px!important;z-index:110;background:rgba(7,17,29,.94);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);border-bottom:1px solid rgba(159,183,208,.22)}
+.header .header-inner,.site-header .header-inner{width:min(1170px,calc(100% - 32px));margin:0 auto;min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:8px 0}
+.header .brand,.site-header .brand{display:inline-flex;flex:0 0 auto;align-items:center;gap:12px;min-width:0;white-space:nowrap;color:#edf3fb;font:820 17px/1.2 Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;letter-spacing:-.02em;text-decoration:none}
+.header .brand img,.site-header .brand img{display:block;flex:0 0 42px;width:42px;height:42px;max-width:42px;object-fit:contain;border-radius:12px}
+.header .brand span,.site-header .brand span{display:block}
+.header .brand small,.site-header .brand small{display:block;color:#8ea9c3;font:700 11.5px/1.35 Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;letter-spacing:.05em;margin-top:3px;white-space:normal}
+.header .menu,.site-header .nav-links{display:flex;align-items:center;justify-content:flex-end;gap:clamp(8px,1.3vw,18px);min-width:0;margin:0;padding:0}
+.header .menu a,.site-header .nav-links a{display:inline-flex;flex:0 0 auto;align-items:center;min-height:44px;font:700 14px/1.45 Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;letter-spacing:0;white-space:nowrap;color:#b7c9dd;text-decoration:none}
+.header .menu a:hover,.site-header .nav-links a:hover{color:#fff;text-decoration:underline;text-decoration-color:#60a5fa;text-underline-offset:5px}
+.header .menu a:focus-visible,.site-header .nav-links a:focus-visible,.header .brand:focus-visible,.site-header .brand:focus-visible{outline:2px solid #60a5fa;outline-offset:3px;color:#fff}
+html{scroll-padding-top:148px!important}
+@media(max-width:1020px){
+  .header .header-inner,.site-header .header-inner{width:calc(100% - 24px);min-height:0;flex-direction:column;align-items:stretch;justify-content:center;gap:4px;padding:8px 0 6px}
+  .header .brand,.site-header .brand{align-self:flex-start;white-space:normal}
+  .header .menu,.site-header .nav-links{display:flex;width:100%;justify-content:flex-start;gap:16px;flex-wrap:nowrap;overflow-x:auto;overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch;scrollbar-width:thin}
+  .header .menu a,.site-header .nav-links a{min-height:44px}
+  html{scroll-padding-top:189px!important}
+}
+@media(max-width:420px){.ve-network__inner{width:calc(100% - 12px);gap:0}.ve-network__link{padding:10px 11px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto!important}}
+
+/* Systems hero mirrors the Trade & Logistics three-step workflow card. */
+.hero.ve-systems-hero{padding:clamp(3.4rem,6vw,5.1rem) 0;background:transparent;border:0}
+.ve-systems-hero .hero-grid{grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:clamp(1.75rem,4vw,3.2rem);align-items:center}
+.ve-systems-hero .hero-copy{min-width:0}
+.ve-systems-hero h1{font-size:clamp(2.35rem,4.55vw,4.4rem);line-height:1.08;letter-spacing:-.048em}
+.ve-systems-hero .lede{font-size:clamp(1.05rem,1.35vw,1.13rem);line-height:1.65}
+.ve-systems-hero .button-row{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}
+.ve-engineering-platform{position:relative;overflow:hidden;min-height:0;padding:clamp(1.3rem,2.65vw,1.8rem);border-radius:25px;background:radial-gradient(circle at 80% 24%,rgba(30,167,186,.24),transparent 35%),radial-gradient(circle at 12% 74%,rgba(38,99,235,.3),transparent 44%),#0c2034;border:1px solid rgba(120,172,213,.24);box-shadow:0 24px 65px #0005}
+.ve-engineering-platform:before{content:"";position:absolute;inset:0;background-image:linear-gradient(rgba(105,146,184,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(105,146,184,.05) 1px,transparent 1px);background-size:38px 38px;pointer-events:none}
+.ve-engineering-platform>*{position:relative}
+.ve-engineering-platform .platform-top{display:flex;align-items:center;gap:11px;margin-bottom:1.35rem;color:#bcd5ea;font-weight:800;font-size:.78rem;line-height:1.45;letter-spacing:.07em;text-transform:uppercase}
+.ve-engineering-platform .platform-indicator{width:9px;height:9px;flex:0 0 9px;background:#5eead4;border-radius:50%;box-shadow:0 0 12px #5eead455}
+.ve-engineering-platform .platform-stack{display:grid;gap:12px}
+.ve-engineering-platform .stack-item{min-width:0;background:rgba(13,31,48,.89);padding:clamp(.95rem,1.6vw,1.2rem);border-radius:16px;border:1px solid rgba(136,181,222,.24);box-shadow:none}
+.ve-engineering-platform .stack-item small{display:block;text-transform:uppercase;letter-spacing:.13em;color:#84d9c7;font-size:.68rem;font-weight:850;margin-bottom:3px}
+.ve-engineering-platform .stack-item strong{display:block;letter-spacing:-.01em;font-size:1.08rem;color:#edf3fb}
+.ve-engineering-platform .stack-item span{display:block;color:#abc1d5;font-size:.84rem;line-height:1.55}
+.ve-engineering-platform .stack-arrow{text-align:center;color:#68aada;line-height:1;letter-spacing:.5rem}
+@media(max-width:900px){.ve-systems-hero .hero-grid{grid-template-columns:1fr}.ve-engineering-platform{max-width:720px;width:100%}}
+@media(max-width:560px){.ve-systems-hero h1{font-size:clamp(2.1rem,9vw,3rem)}.ve-engineering-platform{padding:1.15rem}}
