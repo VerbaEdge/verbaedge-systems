@@ -597,3 +597,17 @@ html{scroll-padding-top:140px!important}
 #rag-specialty .card-grid{margin-top:24px}
 #rag-specialty .scope-note{margin-top:20px;max-width:85ch}
 @media(max-width:720px){#rag-specialty .button-row .button{width:100%;text-align:center}}
+
+
+/* Systems identity matches Overview and Logistics, with two clear service tracks. */
+.site-header .brand{font-size:1.05rem;line-height:1.2;font-weight:820;letter-spacing:-.02em}
+.site-header .brand small{display:block;color:#8ea9c3;font-size:.72rem;font-weight:700;letter-spacing:.05em;margin-top:3px}
+.site-header .brand-logo{height:42px;width:42px;flex:0 0 42px}
+.site-header .header-inner{min-height:76px}
+.site-header .nav-links a{font-size:14px;line-height:1.45;font-weight:700}
+#genai .card-grid,#engineering .card-grid{margin-top:20px}
+#engagements .offer-card{display:flex;flex-direction:column}
+#portfolio .original-samples{margin-top:24px}
+#portfolio #rag-portfolio{margin-top:54px}
+#portfolio .portfolio-grid{margin-bottom:22px}
+@media(max-width:760px){.site-header .nav-links{flex-wrap:nowrap;gap:15px;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:thin}}
