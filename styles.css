@@ -592,3 +592,8 @@ h3 { font-size: 1.22rem; line-height: 1.34; }
 /* Reserve space for both sticky navigation rows when following in-page anchors. */
 html{scroll-padding-top:140px!important}
 @media(max-width:760px){html{scroll-padding-top:185px!important}}
+
+/* Systems architecture: original broad engineering home + nested RAG specialty. */
+#rag-specialty .card-grid{margin-top:24px}
+#rag-specialty .scope-note{margin-top:20px;max-width:85ch}
+@media(max-width:720px){#rag-specialty .button-row .button{width:100%;text-align:center}}
